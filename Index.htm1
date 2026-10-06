@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAi-stQI-0xTrF3e5CBM1ZAbIpz7V86tcw",
+    authDomain: "fitbook-c50cd.firebaseapp.com",
+    projectId: "fitbook-c50cd",
+    storageBucket: "fitbook-c50cd.firebasestorage.app",
+    messagingSenderId: "211055174168",
+    appId: "1:211055174168:web:8f1e30e5b292fb2b35596d"
+  };
+
+  const app = initializeApp(firebaseConfig);
+
+  console.log("FITBOOK Firebase connected!");
+</script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
